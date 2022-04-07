@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Аниме-магазин Ayash`s Life</title>
+    <link rel="shortcut icon" href="img/Favicon.png" type="image/png">
+    <link rel="stylesheet" href="styles/slider-anime.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="scripts/slider.js" defer></script>
+    <script src="scripts/burger.js" defer></script>
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <div class="nav">
+          <div class="nav_left">
+            <div class="burger" id="burger_btn" onclick="onclickMenu();"><a href="#"><img src="img/burger.svg" alt="burger"></a></div>
+            <p><a href="#">Акции</a></p>
+            <p><a href="#">О нас</a></p>
+            <p><a href="#">Контакты</a></p>
+          </div>
+          <div class="nav_right">
+            <div class="nav_icon">
+              <img src="img/icons/login.png" alt="Вход" width="30px" height="30px">
+              <p><a href="#">Войти</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="burger-menu" id="menu">
+      <ul>
+        <li>Акции</li>
+        <li>О нас</li>
+        <li>Контакты</li>
+        <li>Войти</li>
+      </ul>
+    </div>
+    <div class="search">
+      <div class="container">
+        <div class="search-container">
+          <div class="search-main">
+            <a href="index.html"><img src="img/logo2.svg" alt="Лого" width="200" height="200"></a>
+            <input class="search-field" type="text" name="search" value="" placeholder="   Поиск...">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="wrapper">
+      <div class="slider-container">
+        <h1>Хиты продаж</h1>
+          <section class="slider-track">
+            <div class="item">
+              <a href="#"><img src="img/Photos/hit1.webp" alt=""></a>
+              <a href="#"><img src="img/Photos/hit2.webp" alt=""></a>
+              <a href="#"><img src="img/Photos/hit3.webp" alt=""></a>
+              <a href="#"><img class="hidden2_img"src="img/Photos/hit4.webp" alt=""></a>
+              <a href="#"><img class="hidden1_img"src="img/Photos/hit5.webp" alt=""></a>
+              <a href="#"><img class="hidden1_img"src="img/Photos/hit6.webp" alt=""></a>
+            </div>
+            <div class="item">
+              <img src="img/Photos/hit9.webp" alt="">
+              <img src="img/Photos/hit10.webp" alt="">
+              <img src="img/Photos/hit11.webp" alt="">
+              <img class="hidden2_img"src="img/Photos/hit12.webp" alt="">
+              <img class="hidden1_img"src="img/Photos/hit13.webp" alt="">
+              <img class="hidden1_img"src="img/Photos/hit14.webp" alt="">
+            </div>
+            <div class="item">
+              <img src="img/Photos/hit15.webp" alt="">
+              <img src="img/Photos/hit4.webp" alt="">
+              <img src="img/Photos/hit1.webp" alt="">
+              <img class="hidden2_img"src="img/Photos/hit8.jpeg" alt="">
+              <img class="hidden1_img"src="img/Photos/hit6.webp" alt="">
+              <img class="hidden1_img"src="img/Photos/hit5.webp" alt="">
+            </div>
+            <div class="slider-buttons">
+              <a class="prev" onclick="minusSlide()"><img src="img/prev.png" alt="prev"></a>
+              <a class="next" onclick="plusSlide()"><img src="img/next.png" alt="next"></a>
+          </div>
+        </section>
+      </div>
+    </div>
+    <div class="manga">
+     <div class="container">
+       <div class="manga-container">
+         <h1>Популярная манга</h1><br>
+          <section class="manga-place">
+               <div class="manga-item">
+                 <a href="#"><img src="img/Photos/hit8.jpeg" alt=""></a>
+                 <p>Тёмный дворецкий</p>
+                 <p>629 ₽</p>
+               </div>
+               <div class="manga-item">
+                 <a href="#"><img src="img/Photos/hit4.webp" alt=""></a>
+                 <p>Поцелуй сестричек</p>
+                 <p>729 ₽</p>
+               </div>
+               <div class="manga-item">
+                 <a href="#"><img src="img/Photos/hit13.webp" alt=""></a>
+                 <p>Бездомный бог</p>
+                 <p>719 ₽</p>
+               </div>
+               <div class="manga-item">
+                 <a href="#"><img src="img/Photos/hit15.webp" alt=""></a>
+                 <p>Врата; Штейна 0</p>
+                 <p>739 ₽</p>
+               </div>
+               <div class="manga-item">
+                 <a href="#"><img src="img/Photos/hit14.webp" alt=""></a>
+                 <p>Дневник будущего</p>
+                 <p>629 ₽</p>
+               </div>
+               <div class="manga-item">
+                 <a href="#"><img src="img/Photos/hit10.webp" alt=""></a>
+                 <p>Хана-тян и форма мира</p>
+                 <p>679 ₽</p>
+               </div>
+               <div class="manga-item">
+                 <a href="#"><img src="img/Photos/hit12.webp" alt=""></a>
+                 <p>SAO: Progressive</p>
+                 <p>609 ₽</p>
+               </div>
+               <div class="manga-item">
+                 <a href="#"><img src="img/Photos/hit9.webp" alt=""></a>
+                 <p>Воскресенье без бога</p>
+                 <p>709 ₽</p>
+               </div>
+             </section>
+          </div>
+        </div>
+      </div>
+    <div class="footer">
+      <div class="footer-container">
+          <span><p>Ул.Мельникайте 115, офис 601<br>+7 904-490-69-73</p></span>
+          <div class="icons">
+            <a class="icon-social" href="#"><img src="img/viber.png" alt="Мы в вайбере!"></a>
+            <a class="icon-social" href="https://vk.com/pg_72"><img src="img/vk.png" alt="Мы в вк!"></a>
+            <a class="icon-social" href="https://api.whatsapp.com/send/?phone=79199510075&text&app_absent=0"><img src="img/whatsapp.png" alt="Мы в вотсаппе!"></a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
