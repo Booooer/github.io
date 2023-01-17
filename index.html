@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <h1>Прояви себя</h1>
+    <canvas id="draw-field" class="canvas" width="900" height="500">
+
+    </canvas>
+    <div class="large-bar">
+        <input id="value-large" class="value-large" type="range" min="0.5" max="5" step="0.1">
+        <div id="large-number">2.8</div>
+    </div>
+    <div class="buttons">
+        <button type="button" id="reset">Стереть</button>
+        <button type="button" id="save" onclick="saveCanvas()">Сохранить</button>
+        <input type="color" id="color">
+    </div>
+<script src="app.js"></script>
+</body>
+</html>
